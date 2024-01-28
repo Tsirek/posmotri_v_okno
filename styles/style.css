@@ -142,7 +142,6 @@ ol {
 
 .content__accent {
   color: #545050;
-  font-family: inherit;
 }
 
 .content__card-link_current {
@@ -155,6 +154,10 @@ ol {
   color: #fff;
   margin: 2px;
   cursor: pointer;
+}
+
+.content__card-link:active {
+  background-color: #545050;
 }
 
 .content__card-link:hover {
